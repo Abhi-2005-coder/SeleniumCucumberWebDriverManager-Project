@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8548","Validate user is able to view after Login","","Sun Jul 20 14:41:27 IST 2025","passed","Sun Jul 20 14:41:36 IST 2025","","LoggedIn User View","Validate user is able to view after Login",""
+"","6671","Validate user is able to view after login","","Sun Jul 20 14:41:36 IST 2025","passed","Sun Jul 20 14:41:43 IST 2025","","LoggedIn User View","Validate user is able to view after login",""
+"","7085","Validate new user is able to view after clicking on new Registration","","Sun Jul 20 14:41:43 IST 2025","passed","Sun Jul 20 14:41:50 IST 2025","","New User Registration View","Validate new user is able to view after clicking on new Registration",""

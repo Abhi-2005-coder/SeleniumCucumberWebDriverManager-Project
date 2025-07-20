@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-19T22:02:40.733Z",
+        "line": 4,
+        "name": "Validate user is able to view after Login",
+        "description": "",
+        "id": "loggedin-user-view;validate-user-is-able-to-view-after-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12076655000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "stepDefinition.HomePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1308471200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User successfully enters the log in details",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_successfully_enters_the_log_in_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163027000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to view the product category page",
+            "match": {
+              "location": "stepDefinition.LoggedInPage.user_should_be_able_to_view_the_product_category_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoggedIn User View",
+    "description": "",
+    "id": "loggedin-user-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GeneralUserView.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-19T22:02:54.365Z",
+        "line": 3,
+        "name": "Validate user is able to view after login",
+        "description": "",
+        "id": "loggedin-user-view;validate-user-is-able-to-view-after-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6596702200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "stepDefinition.HomePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 555799700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User successfully enters the log in details",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_successfully_enters_the_log_in_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85526600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the product category page",
+            "match": {
+              "location": "stepDefinition.LoggedInPage.user_should_be_able_to_view_the_product_category_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoggedIn User View",
+    "description": "",
+    "id": "loggedin-user-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoggedIn.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-19T22:03:01.613Z",
+        "line": 3,
+        "name": "Validate new user is able to view after clicking on new Registration",
+        "description": "",
+        "id": "new-user-registration-view;validate-new-user-is-able-to-view-after-clicking-on-new-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6315029900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "stepDefinition.HomePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 686959600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on new Registration button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_on_new_registration_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41207500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the Registration page",
+            "match": {
+              "location": "stepDefinition.RegistrationPage.user_successfully_enters_the_log_in_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New User Registration View",
+    "description": "",
+    "id": "new-user-registration-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/NewUserRegistration.feature",
+    "tags": []
+  }
+]
